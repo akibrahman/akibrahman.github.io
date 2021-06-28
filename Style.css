@@ -1,0 +1,244 @@
+body{
+	Padding:0;
+	Margin:0;
+	Background-Color:Transparent;
+}
+#Wrapper{
+	Margin-Left:20px;
+	Background:url('https://i.imgur.com/kk76J5I.jpg') No-Repeat;
+	Background-Attachment:Fixed;
+	Background-Size:1256px Auto;
+	
+}
+.Heading{
+	Font: Bold Small-Caps Italic 35px/150% Arial;
+	Text-Align:Center;
+}
+p,h1,h2,h3,h4,h5,h6{
+	Font-Family:'montserrat',Sans-Serif;
+	Background-Color:Transparent;
+}
+h3{
+	font-weight:Bold; 
+	Color:Orange;
+	Font-Family:Arial;
+}
+.class{
+	Color:purple;
+}
+#id{
+	color:pink;
+}
+.result{
+	Color:Blue;
+}
+h5{
+	Color:Red;
+}
+.inclass{
+	font-weight:Bold;
+}
+h1{
+	Font:Bold Small-Caps 70px/150% Arial;
+	Color:Red;
+	Text-Decoration:Overline Underline;
+}
+.Del{
+	Text-Decoration:Line-Through;
+}
+.BUOI{
+	Text-Decoration:Underline Overline;
+	Font: Bold Small-Caps Italic 35px/150% Arial;
+	
+}
+.Bangla{
+	Font:Italic Bold Small-Caps 15px/100% Arial ;
+	Color:Green;
+}
+.Background{
+	Background-Image:url(Images/4Kriver.jpg);
+	Background-Size: 1236px 300px;
+	Background-Repeat:No-Repeat;
+	Color:#14fcea;
+	Font-Size:25px;
+	-Webkit-text-Stroke:1px Black;
+;
+}
+.BUI{
+	Font:Italic Bold  Small-Caps 15px/100% Arial;
+	Text-Decoration:Underline;
+}
+.Table1{
+	Border:3px Solid Red;
+	Border-Collapse:Collapse;
+	Width:900px;
+	Height:300px;
+	Color:Blue;
+	Text-Align:Center;
+	Background-Color:#001bff69;
+}
+.Table1 td,th{
+	Border:2px Solid White;
+}
+.Stroke{
+	
+	Font-Size:50px;
+	Color:Red;
+	-Webkit-text-Stroke:2px Black;
+}
+.Div0{
+	Width:1236px;
+	height:300px;
+}
+.Div1>h1{
+	Color:Red;
+	Font-Size:20px;
+	-Webkit-text-Stroke:1px Black;
+	Text-Decoration:None;
+}
+.Table1>Caption{
+	Margin-Bottom:10px;
+}
+.Div2{
+	Border:2px Solid Red;
+	Width:1236px;
+	Height:400px;
+	Overflow:Scroll;
+	Background-Color:#ff000085;
+}
+.Div2 p{
+	Background-Color:Transparent;
+}
+
+.Div2 Span{
+	Background-Color:#001bff69;
+}
+.Div3{
+	Width:1236px;
+	Height:300px;
+	Margin-Top:30px;
+}
+.Div3_1:Hover{
+	Border:2px Solid Red;
+}
+.Div4{
+	Border-Radius:38px;
+	Margin-Top:20px;
+	Width:80px;
+	Height:90px;
+	Background-Color:#ffa500a8;
+	Transition:cubic-bezier(0.1, 0.85, 1, 1),Width 0.4s ;
+	
+	}
+.Div4:Hover{
+	Background-Color:Orange;  /*Light-Blue:#0000ff78*/
+	Width:240px;
+	Height:90px;
+}
+.Arrow{
+	Float:Right;
+}
+.Div5{
+	Margin-Top:30px;
+	Width:400px;
+	Height:400px;
+	Border-Radius:25px;
+	Background-Color:#008000a1;
+	Transition:All 1s;
+}
+.Div5:Hover{
+	Transform:Rotate(180deg);
+	Background-Color:Green;
+}
+.Div5 p{
+	Padding:40px 0px 30px 40px;
+	Background-Color:Transparent;
+}
+.Div5 Img{
+	Padding-Left:40px;
+}
+.Div6{
+	Margin-Top:0px;
+	Background-Color:#0000ff78;
+	Width:1236px;
+	Height:120px;
+}
+.Div6 ul,ol{
+	Color:White;
+	list-style-type:;
+	Float:Left;
+	Background-Color:Transparent;
+}
+.Div6 ul{
+	list-style-type:Square;
+}
+dl{
+	Background-Color:#0000ff78;
+	Color:White;
+}
+.Div7{
+	margin-Top:60px;
+	margin-Bottom:10px;
+	width: 100p%;
+	max-width: 550px;
+	background: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	Color:#39b7dd;
+	Font:Italic Small-Caps 12px/100% Arial ;
+}
+.input-fields{
+	
+}
+.input-fields Input{
+	Font-Size:13px;
+	background: transparent;
+	border: 5px;
+	margin: 10px 0;
+	border-bottom: 2px solid #c5ecfd;
+	color: #39b7dd;
+	width: 100%;
+}
+.input-fields Select{
+	margin: 10px 0;
+	background: transparent;
+	border: 0px;
+	border-bottom: 2px solid #c5ecfd;
+    color: #c5ecfd;
+}
+.Btn{
+	background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Div8{
+	Margin:20px 0px 0px 500px;
+	Width:113px;
+	Height:26px;
+	background: rgba(0,0,0,0.8);
+}
+.btn1{
+	Margin:2px;
+	Width:110px;
+	background: #39b7dd;
+	color: #fff;
+	border-bottom: 2px solid #c5ecfd;
+	Border-radius:5px;
+	Cursor:Pointer;
+}
+.btn1:Hover{
+	Color:#255784;
+	Background:#2196f3;
+	Box-Shadow:0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.Btn:Hover{
+	Color:#255784;
+	Background:#2196f3;
+	Box-Shadow:0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}	
+
+
